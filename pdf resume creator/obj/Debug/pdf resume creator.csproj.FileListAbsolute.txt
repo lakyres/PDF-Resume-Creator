@@ -1,0 +1,14 @@
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\pdf resume creator.exe.config
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\pdf resume creator.exe
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\pdf resume creator.pdb
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.SuggestedBindingRedirects.cache
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf_resume_creator.PDFcreator.resources
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf_resume_creator.Properties.Resources.resources
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.CopyComplete
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.exe
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.pdb

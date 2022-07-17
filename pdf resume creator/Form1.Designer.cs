@@ -65,6 +65,7 @@
             this.Controls.Add(this.btn_go);
             this.Controls.Add(this.lbl_generate);
             this.Name = "PDFcreator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PDF Creator";
             this.ResumeLayout(false);
             this.PerformLayout();
