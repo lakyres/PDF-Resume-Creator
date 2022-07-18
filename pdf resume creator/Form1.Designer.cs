@@ -34,8 +34,6 @@
             this.btn_jsontest = new System.Windows.Forms.Button();
             this.txt_displayread = new System.Windows.Forms.TextBox();
             this.btn_write = new System.Windows.Forms.Button();
-            this.txt_displayfix = new System.Windows.Forms.TextBox();
-            this.btn_fix = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -82,7 +80,7 @@
             this.btn_jsontest.BackColor = System.Drawing.Color.PowderBlue;
             this.btn_jsontest.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_jsontest.ForeColor = System.Drawing.Color.Teal;
-            this.btn_jsontest.Location = new System.Drawing.Point(962, 505);
+            this.btn_jsontest.Location = new System.Drawing.Point(575, 505);
             this.btn_jsontest.Name = "btn_jsontest";
             this.btn_jsontest.Size = new System.Drawing.Size(177, 43);
             this.btn_jsontest.TabIndex = 3;
@@ -112,33 +110,12 @@
             this.btn_write.UseVisualStyleBackColor = false;
             this.btn_write.Click += new System.EventHandler(this.btn_write_Click_1);
             // 
-            // txt_displayfix
-            // 
-            this.txt_displayfix.Location = new System.Drawing.Point(729, 93);
-            this.txt_displayfix.Multiline = true;
-            this.txt_displayfix.Name = "txt_displayfix";
-            this.txt_displayfix.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt_displayfix.Size = new System.Drawing.Size(280, 371);
-            this.txt_displayfix.TabIndex = 6;
-            // 
-            // btn_fix
-            // 
-            this.btn_fix.BackColor = System.Drawing.Color.PowderBlue;
-            this.btn_fix.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_fix.ForeColor = System.Drawing.Color.Teal;
-            this.btn_fix.Location = new System.Drawing.Point(622, 421);
-            this.btn_fix.Name = "btn_fix";
-            this.btn_fix.Size = new System.Drawing.Size(101, 43);
-            this.btn_fix.TabIndex = 7;
-            this.btn_fix.Text = "FIX";
-            this.btn_fix.UseVisualStyleBackColor = false;
-            // 
             // btn_clear
             // 
             this.btn_clear.BackColor = System.Drawing.Color.PowderBlue;
             this.btn_clear.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_clear.ForeColor = System.Drawing.Color.Teal;
-            this.btn_clear.Location = new System.Drawing.Point(1009, 12);
+            this.btn_clear.Location = new System.Drawing.Point(622, 12);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(130, 43);
             this.btn_clear.TabIndex = 8;
@@ -151,10 +128,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1151, 560);
+            this.ClientSize = new System.Drawing.Size(758, 560);
             this.Controls.Add(this.btn_clear);
-            this.Controls.Add(this.btn_fix);
-            this.Controls.Add(this.txt_displayfix);
             this.Controls.Add(this.btn_write);
             this.Controls.Add(this.txt_displayread);
             this.Controls.Add(this.btn_jsontest);
@@ -177,8 +152,6 @@
         private System.Windows.Forms.Button btn_jsontest;
         private System.Windows.Forms.TextBox txt_displayread;
         private System.Windows.Forms.Button btn_write;
-        private System.Windows.Forms.TextBox txt_displayfix;
-        private System.Windows.Forms.Button btn_fix;
         private System.Windows.Forms.Button btn_clear;
     }
 }

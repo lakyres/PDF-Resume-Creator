@@ -170,8 +170,9 @@ namespace pdf_resume_creator
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
-            txt_displayfix.Text = string.Empty;
+            
             txt_displayread.Text = string.Empty;
         }
+  
     }
 }
