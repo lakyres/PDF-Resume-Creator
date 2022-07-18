@@ -62,14 +62,17 @@ namespace pdf_resume_creator
             iTextSharp.text.Font txtfont = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12,
                 iTextSharp.text.Font.NORMAL, iTextSharp.text.BaseColor.BLACK);
 
+
             Paragraph infos = new Paragraph(txt_displayread.Text, txtfont);
 
-            
+            infos.SpacingBefore = 11;
+            infos.SpacingAfter = 11;
 
             pdf.Add(infos);
 
             
             pdf.Close();
+
         }
 
         private void btn_write_Click(object sender, EventArgs e)
