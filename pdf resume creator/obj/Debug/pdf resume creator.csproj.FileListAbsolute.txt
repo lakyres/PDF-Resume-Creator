@@ -13,3 +13,6 @@ C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf 
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.exe
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.pdb
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf_resume_creator.JSON.resources
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\itextsharp.dll
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\bin\Debug\itextsharp.xml

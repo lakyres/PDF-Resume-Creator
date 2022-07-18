@@ -10,6 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using iTextSharp;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+
+
 namespace pdf_resume_creator
 {
     public partial class JSON : Form

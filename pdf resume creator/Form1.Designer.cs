@@ -57,6 +57,7 @@
             this.btn_go.TabIndex = 1;
             this.btn_go.Text = "GO";
             this.btn_go.UseVisualStyleBackColor = false;
+            this.btn_go.Click += new System.EventHandler(this.btn_go_Click);
             // 
             // btn_write
             // 
