@@ -39,8 +39,14 @@ namespace pdf_resume_creator
             PdfWriter pdfwrite = PdfWriter.GetInstance(pdf, new FileStream("C:\\Users\\angel\\source\\repos\\pdf resume creator\\generated pdf\\Resume.pdf", FileMode.Create));
             pdf.Open();
 
-            Paragraph pargrph = new Paragraph("RESUME");
-            pdf.Add(pargrph);
+
+            System.Drawing.Image mypicture = System.Drawing.Image.FromFile("C:\\Users\\angel\\source\\repos\\pdf resume creator\\pics\\me.jpg");
+            iTextSharp.text.Image mypicturetext = iTextSharp.text.Image.GetInstance(mypicture, System.Drawing.Imaging.ImageFormat.Jpeg);
+            mypicturetext.Alignment = Element.ALIGN_CENTER;
+            pdf.Add(mypicturetext);
+
+            Paragraph title = new Paragraph("RESUME");
+            pdf.Add(title);
             pdf.Close();
         }
     }
