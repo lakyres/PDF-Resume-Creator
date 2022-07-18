@@ -12,3 +12,4 @@ C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf 
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.csproj.CopyComplete
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.exe
 C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf resume creator.pdb
+C:\Users\angel\source\repos\pdf resume creator\pdf resume creator\obj\Debug\pdf_resume_creator.JSON.resources
