@@ -24,15 +24,15 @@ namespace pdf_resume_creator
         {
             try
             {
-                string jsonFromFile;
-                using (var reader = new StreamReader(jsonfile))
+                string jsonFile;
+                using (var read = new StreamReader(jsonfile))
                 {
-                    jsonFromFile = reader.ReadToEnd();
+                    jsonFile = read.ReadToEnd();
                 }
 
-                txt_displayread.Text = jsonFromFile;
+                txt_displayread.Text = jsonFile;
 
-                var customerFromJson = JsonConvert.DeserializeObject<Resume>(jsonFromFile);
+                var customerFromJson = JsonConvert.DeserializeObject<Resume>(jsonFile);
             }
 
             catch (Exception)
@@ -45,13 +45,13 @@ namespace pdf_resume_creator
         {
             try
             {
-                var customer = GetCustomer();
+                var resume = GetResume();
 
-                var jsonToWrite = JsonConvert.SerializeObject(customer, Formatting.Indented);
+                var jsonToWrite = JsonConvert.SerializeObject(resume, Formatting.Indented);
 
-                using (var writer = new StreamWriter(jsonfile))
+                using (var write = new StreamWriter(jsonfile))
                 {
-                    writer.Write(jsonToWrite);
+                    write.Write(jsonToWrite);
                 }
             }
             catch (Exception)
@@ -60,7 +60,7 @@ namespace pdf_resume_creator
             }
         }
 
-		private Resume GetCustomer()
+		private Resume GetResume()
 		{
 			var resume = new Resume
 			{
