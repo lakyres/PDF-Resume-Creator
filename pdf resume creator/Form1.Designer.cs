@@ -42,7 +42,7 @@
             this.lbl_generate.AutoSize = true;
             this.lbl_generate.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_generate.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_generate.Location = new System.Drawing.Point(167, 41);
+            this.lbl_generate.Location = new System.Drawing.Point(130, 21);
             this.lbl_generate.Name = "lbl_generate";
             this.lbl_generate.Size = new System.Drawing.Size(414, 29);
             this.lbl_generate.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.btn_go.BackColor = System.Drawing.Color.PowderBlue;
             this.btn_go.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_go.ForeColor = System.Drawing.Color.Teal;
-            this.btn_go.Location = new System.Drawing.Point(49, 32);
+            this.btn_go.Location = new System.Drawing.Point(12, 12);
             this.btn_go.Name = "btn_go";
             this.btn_go.Size = new System.Drawing.Size(112, 43);
             this.btn_go.TabIndex = 1;
@@ -94,7 +94,7 @@
             this.txt_displayread.Multiline = true;
             this.txt_displayread.Name = "txt_displayread";
             this.txt_displayread.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt_displayread.Size = new System.Drawing.Size(280, 371);
+            this.txt_displayread.Size = new System.Drawing.Size(309, 371);
             this.txt_displayread.TabIndex = 4;
             // 
             // btn_write

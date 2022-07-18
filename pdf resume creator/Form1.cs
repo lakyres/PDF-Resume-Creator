@@ -36,7 +36,8 @@ namespace pdf_resume_creator
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Generating PDF file....");
+            MessageBox.Show("PDF file created");
 
 
             Document pdf = new Document(PageSize.A4, 20f, 20f, 30f, 30f);
@@ -54,7 +55,8 @@ namespace pdf_resume_creator
 
             System.Drawing.Image mypicture = System.Drawing.Image.FromFile("C:\\Users\\angel\\source\\repos\\pdf resume creator\\generated pdf\\pics\\me.jpg");
             iTextSharp.text.Image mypicturetext = iTextSharp.text.Image.GetInstance(mypicture, System.Drawing.Imaging.ImageFormat.Jpeg);
-            mypicturetext.Alignment = Element.ALIGN_CENTER;
+            
+
             pdf.Add(mypicturetext);
 
             iTextSharp.text.Font txtfont = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12,
@@ -62,7 +64,7 @@ namespace pdf_resume_creator
 
             Paragraph infos = new Paragraph(txt_displayread.Text, txtfont);
 
-            infos.Alignment = Element.ALIGN_CENTER;
+            
 
             pdf.Add(infos);
 
@@ -72,6 +74,8 @@ namespace pdf_resume_creator
 
         private void btn_write_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Loading...");
+
             try
             {
                 string jsonFile;
@@ -151,6 +155,8 @@ namespace pdf_resume_creator
 
         private void btn_write_Click_1(object sender, EventArgs e)
         {
+            MessageBox.Show("JSON file created");
+
             try
             {
                 var resume = GetResume();
@@ -170,7 +176,8 @@ namespace pdf_resume_creator
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
-            
+            if (MessageBox.Show("Do you wish to proceed?", "Clear TextBox", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                MessageBox.Show("Cleared");
             txt_displayread.Text = string.Empty;
         }
   
