@@ -32,6 +32,7 @@
             this.btn_go = new System.Windows.Forms.Button();
             this.btn_write = new System.Windows.Forms.Button();
             this.btn_jsontest = new System.Windows.Forms.Button();
+            this.txt_displayread = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_generate
@@ -76,7 +77,7 @@
             this.btn_jsontest.BackColor = System.Drawing.Color.PowderBlue;
             this.btn_jsontest.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_jsontest.ForeColor = System.Drawing.Color.Teal;
-            this.btn_jsontest.Location = new System.Drawing.Point(503, 177);
+            this.btn_jsontest.Location = new System.Drawing.Point(503, 470);
             this.btn_jsontest.Name = "btn_jsontest";
             this.btn_jsontest.Size = new System.Drawing.Size(177, 43);
             this.btn_jsontest.TabIndex = 3;
@@ -84,12 +85,22 @@
             this.btn_jsontest.UseVisualStyleBackColor = false;
             this.btn_jsontest.Click += new System.EventHandler(this.btn_jsontest_Click);
             // 
+            // txt_displayread
+            // 
+            this.txt_displayread.Location = new System.Drawing.Point(235, 118);
+            this.txt_displayread.Multiline = true;
+            this.txt_displayread.Name = "txt_displayread";
+            this.txt_displayread.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txt_displayread.Size = new System.Drawing.Size(280, 286);
+            this.txt_displayread.TabIndex = 4;
+            // 
             // PDFcreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(692, 232);
+            this.ClientSize = new System.Drawing.Size(692, 525);
+            this.Controls.Add(this.txt_displayread);
             this.Controls.Add(this.btn_jsontest);
             this.Controls.Add(this.btn_write);
             this.Controls.Add(this.btn_go);
@@ -108,6 +119,7 @@
         private System.Windows.Forms.Button btn_go;
         private System.Windows.Forms.Button btn_write;
         private System.Windows.Forms.Button btn_jsontest;
+        private System.Windows.Forms.TextBox txt_displayread;
     }
 }
 

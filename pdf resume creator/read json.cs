@@ -37,7 +37,7 @@ namespace pdf_resume_creator
 
                 txt_displayread.Text = jsonFile;
 
-                var customerFromJson = JsonConvert.DeserializeObject<Resume>(jsonFile);
+                var resumeFromJson = JsonConvert.DeserializeObject<Resume>(jsonFile);
             }
 
             catch (Exception)

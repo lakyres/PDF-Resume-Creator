@@ -39,14 +39,30 @@ namespace pdf_resume_creator
             PdfWriter pdfwrite = PdfWriter.GetInstance(pdf, new FileStream("C:\\Users\\angel\\source\\repos\\pdf resume creator\\generated pdf\\Resume.pdf", FileMode.Create));
             pdf.Open();
 
+            iTextSharp.text.Font titlefont = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 30,
+                iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK);
+
+            Paragraph title = new Paragraph("RESUME", titlefont);
+
+            title.Alignment = Element.ALIGN_CENTER;
+
+            pdf.Add(title);
 
             System.Drawing.Image mypicture = System.Drawing.Image.FromFile("C:\\Users\\angel\\source\\repos\\pdf resume creator\\pics\\me.jpg");
             iTextSharp.text.Image mypicturetext = iTextSharp.text.Image.GetInstance(mypicture, System.Drawing.Imaging.ImageFormat.Jpeg);
             mypicturetext.Alignment = Element.ALIGN_CENTER;
             pdf.Add(mypicturetext);
 
-            Paragraph title = new Paragraph("RESUME");
-            pdf.Add(title);
+            iTextSharp.text.Font txtfont = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12,
+                iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK);
+
+            Paragraph infos = new Paragraph(txt_displayread.Text, txtfont);
+
+            infos.Alignment = Element.ALIGN_CENTER;
+
+            pdf.Add(infos);
+
+            
             pdf.Close();
         }
     }
