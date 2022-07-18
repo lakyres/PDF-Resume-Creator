@@ -48,7 +48,7 @@ namespace pdf_resume_creator
 
             pdf.Add(title);
 
-            System.Drawing.Image mypicture = System.Drawing.Image.FromFile("C:\\Users\\angel\\source\\repos\\pdf resume creator\\pics\\me.jpg");
+            System.Drawing.Image mypicture = System.Drawing.Image.FromFile("C:\\Users\\angel\\source\\repos\\pdf resume creator\\generated pdf\\pics\\me.jpg");
             iTextSharp.text.Image mypicturetext = iTextSharp.text.Image.GetInstance(mypicture, System.Drawing.Imaging.ImageFormat.Jpeg);
             mypicturetext.Alignment = Element.ALIGN_CENTER;
             pdf.Add(mypicturetext);
