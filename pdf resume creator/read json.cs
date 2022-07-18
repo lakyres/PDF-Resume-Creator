@@ -78,7 +78,7 @@ namespace pdf_resume_creator
                 JuniorHighSchool = "OLONGAPO CITY NATIONAL HIGH SCHOOL",
                 SeniorHighSchool = "GORDON COLLEGE",
                 College = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES (STA. MESA)",
-                ExperienceAccomplishment = "Salutatorian (2nd honor), Campus Journalist, Active Girl Scout, Consistent MTAP Contestant, Australian Mathematics Qualifier, Science Contestant(District), Campus Journalist (News Writing), CAT Officer(2nd / Lt.Alpha Company 1st Platoon Leader), President's Lister (1st sem)",
+                ExperienceAccomplishment = "Salutatorian (2nd honor), Campus Journalist, Active Girl Scout, Consistent MTAP Contestant, Australian Mathematics Qualifier, Science Contestant (District), Campus Journalist (News Writing), CAT Officer(2nd / Lt.Alpha Company 1st Platoon Leader), President's Lister (1st sem)",
                 Competencies1 = "Proficient in 3 programming",
                 Competencies2 = "Fluent in Filipino, English, and Japanese",
                 Competencies3 = "Excellent communication skills",
