@@ -37,6 +37,7 @@ namespace pdf_resume_creator
         {
             Document pdf = new Document(PageSize.A4, 20f, 20f, 30f, 30f);
             PdfWriter pdfwrite = PdfWriter.GetInstance(pdf, new FileStream("C:\\Users\\angel\\source\\repos\\pdf resume creator\\generated pdf\\Resume.pdf", FileMode.Create));
+            pdf.Open();
 
             Paragraph pargrph = new Paragraph("RESUME");
             pdf.Add(pargrph);
