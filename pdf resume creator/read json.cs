@@ -74,7 +74,16 @@ namespace pdf_resume_creator
                 CivilStatus = "Single",
                 Citizenship = "Filipino",
                 Religion = "Roman Catholic",
-
+                Elementary = "KALALAKE ELEMENTARY SCHOOL",
+                JuniorHighSchool = "OLONGAPO CITY NATIONAL HIGH SCHOOL",
+                SeniorHighSchool = "GORDON COLLEGE",
+                College = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES (STA. MESA)",
+                Competencies1 = "Proficient in 3 programming",
+                Competencies2 = "Fluent in Filipino, English, and Japanese",
+                Competencies3 = "Excellent communication skills",
+                ContactInformation1 = "09285797337",
+                ContactInformation2 = "kylamarjes11@gmail.com",
+                ContactInformation3 = "#83-B Irving St., New Kalalake, Olongapo City, Zambales",
 
 
 
@@ -95,6 +104,18 @@ namespace pdf_resume_creator
             public string CivilStatus { get; set; }
             public string Citizenship { get; set; }
             public string Religion { get; set; }
+            public string Elementary { get; set; }
+            public string JuniorHighSchool { get; set; }
+            public string SeniorHighSchool { get; set; }
+            public string College { get; set; }
+            public string Competencies1 { get; set; }
+            public string Competencies2 { get; set; }
+            public string Competencies3 { get; set; }
+            public string ContactInformation1 { get; set; }
+            public string ContactInformation2 { get; set; }
+            public string ContactInformation3 { get; set; }
+
+
 
 
         }
