@@ -158,6 +158,7 @@ namespace pdf_resume_creator
 
         private void btn_write_Click_1(object sender, EventArgs e)
         {
+            MessageBox.Show("Creating JSON file...");
             MessageBox.Show("JSON file created");
 
             try
